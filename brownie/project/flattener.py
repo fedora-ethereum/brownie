@@ -3,7 +3,7 @@ from collections import defaultdict
 from pathlib import Path
 from typing import DefaultDict, Dict, Set
 
-from brownie.utils.toposort import toposort_flatten
+from toposort import toposort_flatten
 
 # Patten matching Solidity `import-directive`, capturing path component
 # https://docs.soliditylang.org/en/latest/grammar.html#a4.SolidityParser.importDirective
