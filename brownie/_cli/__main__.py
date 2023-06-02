@@ -8,7 +8,7 @@ from brownie import network
 from brownie._config import CONFIG, __version__
 from brownie.exceptions import ProjectNotFound
 from brownie.utils import color, notify
-from brownie.utils.docopt import docopt, levenshtein_norm
+from docopt import docopt, levenshtein_norm
 
 __doc__ = """Usage:  brownie <command> [<args>...] [options <args>]
 

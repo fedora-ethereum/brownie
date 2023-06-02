@@ -9,7 +9,7 @@ from brownie import accounts
 from brownie._config import _get_data_folder
 from brownie.convert import to_address
 from brownie.utils import color, notify
-from brownie.utils.docopt import docopt
+from docopt import docopt
 
 __doc__ = """Usage: brownie accounts <command> [<arguments> ...] [options]
 

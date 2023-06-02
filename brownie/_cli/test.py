@@ -7,7 +7,7 @@ import pytest
 from brownie import project
 from brownie._config import CONFIG, _load_project_structure_config
 from brownie.exceptions import ProjectNotFound
-from brownie.utils.docopt import docopt
+from docopt import docopt
 
 __doc__ = f"""Usage: brownie test [<path>, ...] [options]
 
